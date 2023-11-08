@@ -1,9 +1,12 @@
+html {
+    color: white;
+}
 #main-container {
     position: absolute;
     left: 0;
     top: 0;
+    padding: 20px;
     min-height: 100vh;
     width: 100vw;
-#grad {
     background-image: linear-gradient(to right, red , yellow);
-    }
+}
