@@ -8,5 +8,9 @@ html {
     padding: 20px;
     min-height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to right, blue ,black);
+    background-image: linear-gradient(to right, red , yellow);
+    box-sizing: border-box;
+}
+#table1 {
+    width: 100%;
 }
