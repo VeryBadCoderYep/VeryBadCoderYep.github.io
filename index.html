@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>This website is an assortment of barely useful tools. Enjoy.</h1>  
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main-container">
+  <h1>This website is an assortment of barely useful tools. Enjoy.</h1>
+
+  <table>
+    <tr>
+      <th>Want me to create something? Contact me here!</th>
+    </tr>
+    <tr>
+      <th> jtbird271@gmail.com </th>
+    </tr>
+  </table>
+
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    ctx.moveTo(0, 0)
+    ctx.lineTo(200, 100)
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(0, 0, 150, 75);
+
+  </script>
+
+  </div>
+</body>
+
 </html>
